@@ -4,7 +4,6 @@ const Category = require('./Category');
 const Tag = require('./Tag');
 const ProductTag = require('./ProductTag');
 
-class User extends Model {}
 
 // Products belongsTo Category
 Product.belongsTo(Category, {
